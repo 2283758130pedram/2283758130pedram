@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .softExpert {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="myfunction">Click Me</button>
+    <script>
+      function myfunction() {
+        var x = document.getElementById("softExpert");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
